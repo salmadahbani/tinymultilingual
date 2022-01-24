@@ -59,7 +59,7 @@ section .text-container .text-box{
   
 }
 section .text-container .text-box .intro{
-  margin-left: 480px;
+  margin-left: 470px;
 }
 
 section .text-container .text-box h3{
@@ -136,7 +136,7 @@ button {
 
 .see-more {
   color: #CE1141;
-  margin-left: 25%;
+  margin-left: 28%;
 }
 
 .websites {
