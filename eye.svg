@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="eye.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.71713664"
+     inkscape:cx="396.71658"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="2153"
+     inkscape:window-y="-7"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g15"
+       transform="matrix(2.2047965,0,0,2.3872844,-41.815379,-130.20487)"
+       style="stroke-width:0.435877">
+      <rect
+         style="fill:#ffccaa;fill-opacity:1;stroke-width:0.499968"
+         id="rect2-0"
+         width="38.487514"
+         height="8.9636402"
+         x="45.445763"
+         y="93.980072"
+         ry="1.165273" />
+      <g
+         id="g3-9"
+         transform="matrix(1,0,0,0.95030166,-25.36909,6.6856391)"
+         inkscape:label="Open-eye"
+         style="stroke-width:0.435877">
+        <ellipse
+           style="opacity:1;fill:#ffccaa;stroke-width:0.871755;stroke-dasharray:none"
+           id="ellipse2-5"
+           cx="77.522919"
+           cy="96.966103"
+           rx="4.4979167"
+           ry="4.6645064"
+           inkscape:label="Eye" />
+        <ellipse
+           style="opacity:1;fill:#000000;stroke-width:0.410315;stroke-dasharray:none"
+           id="ellipse3-1"
+           ry="2.7759635"
+           rx="1.8555695"
+           cy="98.394798"
+           cx="77.845306"
+           inkscape:label="right-blush" />
+      </g>
+      <g
+         id="g3-4"
+         transform="matrix(1,0,0,0.95030166,-0.60320992,6.8401846)"
+         inkscape:label="Open-eye"
+         style="stroke-width:0.435877">
+        <ellipse
+           style="opacity:1;fill:#ffccaa;stroke-width:0.871755;stroke-dasharray:none"
+           id="ellipse2"
+           cx="77.522919"
+           cy="96.966103"
+           rx="4.4979167"
+           ry="4.6645064"
+           inkscape:label="Eye" />
+        <ellipse
+           style="opacity:1;fill:#000000;stroke-width:0.410315;stroke-dasharray:none"
+           id="ellipse3"
+           ry="2.7759635"
+           rx="1.8555695"
+           cy="98.394798"
+           cx="77.845306"
+           inkscape:label="right-blush" />
+      </g>
+    </g>
+  </g>
+</svg>
