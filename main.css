@@ -68,53 +68,19 @@ header {
 
 .headline {
   padding-bottom: 10%;
-  text-align: center;
-  color: var(--color-moroccan-pink);
+  color: #cfc7c7;
   text-shadow: 0.4rem 0.1rem 0 rgba(0,0,0,0.3);
-  font-size: 8vw;
-  font-family: 'Pacifico', sans-serif;
-  overflow: hidden;
-  -webkit-backface-visibility: hidden;
 } 
 
 
 
 .slide {
-  padding-top: 10vh;
-  display:inline-flex;
+  padding-top: 18vh;
   white-space:nowrap;
+  font-size: 8vw;
+  font-family: 'Pacifico', sans-serif;
 }
 
-.headline > * {
-  animation: 21s autoplay infinite ease-in-out;
-  position: absolute; 
-  top: 100%;  
-  left: 24%;
-}  
-
-.headline > *:nth-child(1) {animation-delay: 0s}
-.headline > *:nth-child(2) {animation-delay: 7s}
-.headline > *:nth-child(3) {animation-delay: 14s}
-
-.hi { 
-  animation: showup 7s infinite;
-}
-
-.name {
-  width:0px;
-  animation: reveal 7s infinite;
-}
-
-.name span {
-  animation: slidein 7s infinite;
-}
-
-.sub-headline {
-  padding-top: 10%;
-  font-size: 3.5vw;
-  text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
-  color: #cfc7c7;
-}
 
 nav {
   background: #1a2519;
@@ -128,7 +94,6 @@ nav {
 body.fixed-nav nav {
   position: fixed;
   background-color: #6464fa80;
-
 }
 
 nav ul {
@@ -168,7 +133,6 @@ body.fixed-nav .container {
 .container {
   max-width: 1400px;
   background-color: #1a2519;
-  background-image: linear-gradient(#1a2519 0%, #271109 74%);
   margin: 7vh auto;
   padding: 40px;
   text-align: distribute;
@@ -184,7 +148,6 @@ body.fixed-nav .container {
   max-width: 80rem;
   margin-left: auto;
   margin-right: auto;
-  /* padding-left: calc(1rem + (8 - 1) * ((100vw - 20rem)/ (100 - 20))); */
   padding-right: calc(1rem + (8 - 1) * ((100vw - 20rem)/ (100 - 20)));
 }
 
@@ -325,7 +288,7 @@ body.fixed-nav .container {
 }
 
 .shimmer {
-  margin: 7vh auto ;
+  margin: 10vh auto ;
   display: block;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
   text-align: center;
@@ -367,7 +330,7 @@ hr {
 /* -------------------------SECTION 3 - SKILLS --------------------------------------------------*/
 
 .skills {
-  padding-top: 10vh;
+  padding-top: 15vh;
 }
 
 .toolbox h2, .intro-skills {
@@ -376,10 +339,11 @@ hr {
   
 .tool-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
-  grid-gap: 5rem;
+  grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+  grid-gap: 3rem;
   list-style:none;
   margin: 2rem 0;
+  padding-bottom: 9rem;
 }
 
 .tool-list-item {
@@ -387,7 +351,7 @@ hr {
 }
 
 .tool-list-item svg{
-  height: 100px;
+  height: 80px;
 }
 
 .svg-label {
@@ -480,7 +444,7 @@ hr {
 .inner-contact h2 {
   text-align: center;
   color: #b9b9ff;
-  font-size: 6vw;
+  font-size: 5vw;
 }
 
 .email {
@@ -508,37 +472,7 @@ hr {
 
 /*------Responsive------*/
 
-@keyframes autoplay {
-  0% {top: 100%}      
-  4% {top: 0%}        
-  33.33% {top: 0%}    
-  37.33% {top: -100%}
-  100% {top: -100%}
-}
 
-@keyframes showup {
-  0% {opacity:0;}
-  20% {opacity:0;}
-  40% {opacity:1;}
-  60% {opacity:1;}
-  80% {opacity:1;}
-  100% {opacity:0;}
-}
-
-@keyframes slidein {
-  0% { margin-left:-2400%;}
-  20% { margin-left:-2400%;}
-  35% { margin-left:0%; }
-  100% { margin-left:0%; }
-}
-
-@keyframes reveal {
-  0% {opacity:0;width:0px;}
-  20% {opacity:0;width:800%;}
-  30% {opacity:1; width:800%;}
-  80% {opacity:1; } 
-  100% {opacity:0;width:800%;}
-}
 
 @keyframes tossing {
   0% {transform: rotate(-2deg);}
